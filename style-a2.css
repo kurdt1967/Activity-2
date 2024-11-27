@@ -1,0 +1,23 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1a1a1a; /* Dark background for contrast */
+    overflow: hidden; /* Prevent scrollbars */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height viewport */
+}
+
+/* Canvas styling */
+canvas.webgl {
+    display: block; /* Removes inline padding/margins */
+    width: 100vw; /* Make the canvas fill the full width of the viewport */
+    height: 100vh; /* Make the canvas fill the full height of the viewport */
+    border: none; /* Remove border */
+}
